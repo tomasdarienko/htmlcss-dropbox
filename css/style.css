@@ -78,15 +78,29 @@
 .js-center{
      justify-content: center;
 }
+.center{
+     justify-content: center;
+     align-items: center;
+}
 .column{
      flex-direction: column;
 }
+.wrap{
+     flex-wrap: wrap;
+}
+
+
+
+
 
 .border{
      border: 1px solid rgba(153, 152, 152, 0.512);
 }
 .min-h{
 min-height: 600px;
+}
+.pdng-30{
+     padding: 30px;
 }
 
 
@@ -104,4 +118,49 @@ ul{
 }
 img{
      max-width: 100%;
+   
+}
+.brand-img{
+     width: 50%;
+     
+    
+}
+
+
+
+
+.square{
+     width: 50%;
+     height: 15vw;
+
+}
+
+
+.bg-verde-acqua{
+     background-color: rgb(92, 207, 168);
+}
+.bg-bordo{
+     background-color: rgb(136, 0, 0);
+}
+.bg-azzurro{
+     background-color: rgb(0, 157, 255);
+}
+
+.bg-rosso{
+     background-color: red;
+}
+.bg-rossoscuro{
+     background-color: rgb(208, 0, 0);
+}
+.bg-celeste{
+     background-color: rgb(160, 212, 255);
+}
+.bg-blu{
+     background-color: blue;
+}
+.bg-giallo{
+     background-color: yellow;
+}
+.bg-grigio{
+     background-color: rgb(207, 207, 207);
 }
